@@ -1,0 +1,206 @@
+.carousel{
+	height: 500px;
+	background: #000;
+	margin-bottom: 60px;
+	margin-top: 110px;
+}
+.carousel .item{
+    height: 500px;
+	background: #000;
+}
+.carousel img{
+	width: 100%;
+}
+.index-menu{
+	border-top:4px solid #f34949; 
+	position: relative;
+	margin: 0 auto;
+	top:-60px;
+}
+.index-menu .menu-tips{
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-left: -78px;
+	height: 75px;
+	width: 156px;
+	text-align: center;
+	line-height: 56px;/*像素怎量*/
+	background: #F34949;
+}
+.index-menu .menu-tips:after{
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border-left: 78px solid transparent;
+	border-right: 78px solid transparent;
+	border-bottom: 10px solid #FFFFFF;
+}
+
+
+.index-menu .container .row .index-menu-list{
+	margin-top: 150px;	
+	color: #555;	
+}
+.index-menu  .index-menu-list .menu-item{	
+	width: 100%;
+	margin-right: 60px;
+	margin-bottom: 56px;
+	float: left;
+	text-align: left;
+}
+.index-menu  .index-menu-list .menu-item .price{
+	float: right;
+	font-family: "arial, helvetica, sans-serif";
+}
+.index-menu  .index-menu-list .menu-item .title{
+	float: left;
+	width: 44%;
+	overflow: hidden;/*超出隐藏*/
+	text-overflow: ellipsis;/*超出点点点*/
+	white-space: nowrap;
+}
+.index-menu .line{
+	float: left;
+	width: 36%;
+	border-top: 1px solid #e3e1e1;
+	vertical-align: middle;
+	margin-top: 10px;
+}
+.index-menu  .title h4{
+	color: #a6a6a6;
+}
+.index-menu  .title .conment{
+	color: #c7c7c7;
+	margin-top: 4px;
+	font-size: 12px;
+	
+}
+
+ .menu-more-btn{	
+	margin: 0 auto;
+	width: 130px;
+	height: 33px;
+	padding-left:10px;	
+	border: 1px solid #d7d5d5;
+	*margin-top: 94px;
+	font-size: 14px;
+	line-height: 32px;/*怎么测量啊*/
+	color: #b7b7b7;
+	display: block;		
+}
+.pick-up-btn{	
+	width: 130px;
+	height: 33px;
+	margin: 0 auto;
+	padding-left: 10px;	
+	border: 1px solid #d7d5d5;
+	*margin-top: 94px;
+	font-size: 14px;
+	line-height: 32px;/*怎么测量啊*/
+	color: #b7b7b7;
+	display: none;		
+}
+.btn-line{
+	padding-left: 14px;
+}
+
+.icon{
+	display: inline-block;
+	width: 11px;
+	height:7px;
+	margin-left: 10px;
+	font-size: 12px;
+	line-height: 18px;
+}
+.index-panel{
+	margin-top: 196px;
+}
+.index-panel-header h3{
+	width: 100%;
+	font-size: 20px;
+	color: #3B3B3B;
+	font-weight: normal;
+}
+.index-panel-header .line{
+	width: 100%;
+	vertical-align: middle;
+	margin-top: 34px;
+	border-top:2px solid #e3e1e1;
+}
+.index-panel-header .bttn-group{
+	font-size: 0px;/*清除间距*/
+	width: 100%;
+}
+.index-panel-header .bttn{
+	margin-left: 10px;
+	display: inline-block;
+	width: 9px;
+	height: 9px;
+	background: #dedede;
+	border-radius: 50%;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.index-panel-header .active{
+	background: #9b9b9b;
+	cursor: pointer;
+}
+.index-panel-body{
+	margin-top: 138px;
+}
+
+.index-food-list .food-item{
+/*	float: left;*/
+	/*width: 100%;*/
+	/*margin-right: 60px;*/
+	
+}
+.index-food-list .food-item .banner{
+	margin-bottom: 25px;
+	height: 200px;
+}
+.index-food-list .food-item .name{
+	margin-bottom: 10px;
+	font-size: #555;
+}
+.index-food-list .food-item .name span{
+	float: right;
+}
+.index-food-list .food-item .star-bar{
+	font-size: 0;
+}
+.star{
+	display: inline-block;
+	width: 12px;
+	height: 13px;
+	margin-right: 5px;
+	background-image: url(../img/red_star.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.nostar{
+	display: inline-block;
+	width: 12px;
+	height: 13px;
+	margin-right: 5px;
+	background-image: url(../img/gray_star.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.displaynone1{
+	display: none!important;
+}
+.index-pics{
+	height: 382px;
+	overflow: hidden;
+}
+.index-pics .pics-col{
+	float: left;
+}
+.pics-col-m ,.pics-col-s,.pics-col-l{
+	width: 100%;	
+}
